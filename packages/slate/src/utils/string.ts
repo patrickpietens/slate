@@ -231,9 +231,9 @@ const isWordCharacter = (
     }
   }
 
-  if (PUNCTUATION.test(char)) {
-    return false
-  }
+  // if (PUNCTUATION.test(char)) {
+  //   return false
+  // }
 
   return true
 }
